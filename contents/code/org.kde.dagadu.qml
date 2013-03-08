@@ -75,6 +75,7 @@ Item {
         PlasmaComponents.TextArea {
             id: textDagadu
             placeholderText: i18n("Dagadu / Original")
+            readOnly: true
             
             anchors {
                 top: buttonDagadu.bottom
