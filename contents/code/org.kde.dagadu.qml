@@ -29,8 +29,9 @@ Item {
     property int minimumWidth: 200
     property int minimumHeight: 300
     
-    Column {
+    Rectangle {
         anchors.fill: parent
+        color: "transparent"
         
         PlasmaComponents.Label {
             id: titleLabel
