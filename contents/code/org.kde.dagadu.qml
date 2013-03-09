@@ -49,9 +49,11 @@ Item {
                 right: parent.right
                 
                 topMargin: 5
+                leftMargin: 5
+                rightMargin: 5
             }
             
-            height: parent.height * 0.39
+            height: parent.height * 0.36
         }
         
         PlasmaComponents.Button {
@@ -64,6 +66,8 @@ Item {
                 right: parent.right
                 
                 topMargin: 5
+                leftMargin: 5
+                rightMargin: 5
             }
             
             onClicked: {
@@ -85,6 +89,9 @@ Item {
                 bottom: parent.bottom
                 
                 topMargin: 5
+                leftMargin: 5
+                rightMargin: 5
+                bottomMargin: 5
             }
         }
     }
