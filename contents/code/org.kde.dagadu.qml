@@ -94,5 +94,9 @@ Item {
                 bottomMargin: 5
             }
         }
+        
+        Component.onCompleted: {
+            plasmoid.popupicon = "gwenview"
+        }
     }
 }
